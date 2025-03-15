@@ -1,0 +1,22 @@
+{
+  "name": "coding-meme-generator-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "express": "^4.21.2",
+    "memejs": "^2.0.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9",
+    "random-memes": "^3.2.6",
+    "reddit-meme-fetcher": "^1.0.5"
+  }
+}
