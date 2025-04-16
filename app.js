@@ -30,11 +30,7 @@ bot.onText(/\/meme/, async (msg) => {
         const randommeme = meme[Math.floor(Math.random() * meme.length)];
   
 
-        cron.schedule('* 40 6 * * *', () => {
-
-            bot.sendPhoto(chatid,randommeme); 
-
-        })
+          bot.sendPhoto(chatid,randommeme); 
 
 
 
